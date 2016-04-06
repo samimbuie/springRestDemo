@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="" useHttpOnly="false">
+<Resource
+    name="jdbc/OracleDS"
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxActive="10"
+    maxIdle="1"
+    maxWait="10000"
+    driverClassName="oracle.jdbc.driver.OracleDriver"
+    url="jdbc:oracle:thin:@localhost:1521/XE"
+    username="HR"
+    password="HR"
+    />
+    
+  
+</Context>
+    
